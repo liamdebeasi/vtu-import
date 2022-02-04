@@ -1,7 +1,0 @@
-{
-  "name": "temp-vue",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "vue"
-}
