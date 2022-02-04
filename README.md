@@ -17,3 +17,10 @@ TypeError: (0 , vue_1.testFunction) is not a function
       12 | };
       13 | </script>
 ```
+6. Remove `lang="ts"` from the `<script>` in `App.vue`.
+7. Re-run `npm run test:unit`. Observe that no error is thrown.
+
+Note: You can also get the test to pass with no error by doing one of the following:
+
+- Remove everything inside of `<template>`
+- Changing the name of the module to something else (i.e. `@test/module`)
